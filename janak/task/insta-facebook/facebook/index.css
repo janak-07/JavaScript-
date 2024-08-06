@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+.main {
+    width: 450px;
+    height: 300px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+    width: 200px;
+    margin-left: 130px;
+}
+
+.main-1 {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    margin-top: 10px;
+    position: relative;
+}
+
+.text,
+text {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background: #fafafa;
+    font-size: 20px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 30px;
+    background: none;
+    top: -30%;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    height: 30px;
+    width: 20px;
+    color: #00376b;
+}
+
+.log-in {
+    width: 98%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    background: #3897f0;
+    cursor: pointer;
+    /* margin-top: 10px; */
+}
+
+button,
+.login-facebook {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #3897f0;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+
+}
+.forgot-password {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #0073de;
+    text-decoration: none;
+    margin-left: 95px;
+    
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}

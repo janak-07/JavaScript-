@@ -1,0 +1,55 @@
+.container{
+    width: 40%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #000000;
+}
+
+.ch {
+    height: 350px;
+    background-color: #c9bdbd;
+    text-align: center;
+    display: block;
+    align-items: center;
+    margin-top:20px ;
+}
+
+.innear {
+    width: 320px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: rgb(13, 14, 15);
+    border: none;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+.innear::placeholder{
+    color: black;
+    font-size: 30px;   
+}
+
+button {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px  rgb(3, 3, 3);
+    font-size: 50px;
+    display: inline;
+    background-color: #0202025d;
+    margin-top: 40px;
+}
+ 
+
+.ch :nth-last-child(1) {
+    margin-top: 40px;
+    width: 353px;
+}

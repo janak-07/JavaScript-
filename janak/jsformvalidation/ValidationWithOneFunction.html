@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="userName" id="userName" onblur="MyForm(this,error1, 'Name is required')" />
+    <span id="error1"></span>
+    <br />
+    <br />
+    <input type="password" name="userPass" id="userPass" onblur="MyForm(this,error2, 'Password is required')" />
+    <span id="error2"></span>
+    <br />
+    <br />
+    <input type="email" name="userEmail" id="userEmail" onblur="MyForm(this,error3, 'Email is required')" />
+    <span id="error3"></span>
+    <br />
+    <br />
+    <input type="tel" name="userMobile" id="userMobile" onblur="MyForm(this,error4, 'Mobile number is required')" />
+    <span id="error4"></span>
+    <br />
+
+    <script>
+        function MyForm(e, spanId, msg) {
+            console.log(e);
+            console.log(e.value);
+            console.log(spanId);
+
+            if (e.value == "") {
+                spanId.innerText = msg;
+            } else {
+                spanId.innerText = "";
+            }
+
+
+
+        }
+        //     let errorElement = document.getElementById("user");
+        //     if (element.value == "") {
+        //         console.log(msg);
+        //          document.getElementById("error1").innerText =msg;
+        //     } else {
+        //         console.log("Validate");
+        //         document.getElementById("error1").innerText = "";
+        // }}
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+</script>
+</body>
+
+</html>
