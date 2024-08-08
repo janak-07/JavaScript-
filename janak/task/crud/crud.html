@@ -50,13 +50,15 @@
             background-color: black;
             color: white;
         }
-.one{
-    width: 970px;
-    height: 300px;
-    border: 4px solid rgb(5, 3, 3);
-    margin: auto;
-    
-}
+
+        .one {
+            width: 970px;
+            height: 300px;
+            border: 4px solid rgb(5, 3, 3);
+            margin: auto;
+
+        }
+
         .chackbox {
             width: 100%;
             height: 70px;
@@ -124,48 +126,33 @@
             color: white;
         }
     </style>
-</head>
+</head> 
 
 <body>
     <div class="container">
         <div class="main-container">
             <div class="div1">
                 <textarea id="inputText" placeholder="enter your text......."></textarea>
-                <button>Add Text</button>
+                <button id="btn">Add Text</button>
             </div>
             <div class="one">
                 <div class="chackbox">
                     <div class="chackbox1">
-                        <h3>Sellect All</h3>
-                        <input type="checkbox">
+                        <h3>Select All</h3>
+                        <input type="checkbox" id="selectAllCheckbox">
                     </div>
-                    <button class="deletall">delete all</button>
+                    <button class="deletall" id="deleteAllBtn">delete all</button>
                 </div>
-                <div class="main2-3div">
-                    <div class="div2">
-                        <input type="checkbox"></button>
-                        <textarea></textarea>
-                        <button>Edit</button>
-                        <button>delete</button>
-                    </div>
-                    <div class="div2">
-                        <input type="checkbox"></button>
-                        <textarea></textarea>
-                        <button>Edit</button>
-                        <button>delete</button>
-                    </div>
-                    <div class="div2">
-                        <input type="checkbox"></button>
-                        <textarea></textarea>
-                        <button>Edit</button>
-                        <button>delete</button>
-                    </div>
-
-                </div>
+                <div class="main2-3div" id="textContainer">
+                    
+                 </div>
             </div>
         </div>
     </div>
-    </div>
-</body>
 
+    <script>
+        document.getElementById('btn').addEventListener('click', addText);
+        document.getElementById('selectAllCheckbox').addEventListener('click', toggleSelectAll);
+        document.getElementById('deleteAllBtn').addEventListener('click', deleteAll);
+    </script>
 </html>
