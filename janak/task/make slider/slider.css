@@ -1,0 +1,29 @@
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;  
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;  
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.icon{
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
