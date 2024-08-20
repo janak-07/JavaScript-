@@ -1,19 +1,18 @@
 
 const arr = [
     {
-        id : 1, slide1 :"Graphics Designer", image : "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        id : 1, slide1 :"Graphics Designer", image :  "https://images.pexels.com/photos/18723456/pexels-photo-18723456/free-photo-of-portrait-of-woman-in-front-of-a-petrol-station.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-        id : 2,  slide1 :"Web Devloper", image : "https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        id : 2,  slide1 :"Web Devloper", image : "https://images.pexels.com/photos/27573813/pexels-photo-27573813/free-photo-of-a-reflection-of-a-building-in-the-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load "
     }, 
     {
-        id : 3, slide1 :"UI UX DESIGNER",  image :"https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        id : 3, slide1 :"UI UX DESIGNER",  image :" https://images.pexels.com/photos/8408553/pexels-photo-8408553.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     }, 
 ];
 
 const img = document.querySelector("#image");
 const slide1 = document.querySelector("#slide1");
-// const topic = document.querySelector("#topic");
 
 const prev = document.querySelector("#prev-btn");
 const next = document.querySelector("#next-btn");
@@ -24,7 +23,6 @@ function showWinner(){
     arr[count];
     img.src =  arr[count].image;
     slide1.innerText = arr[count].slide1;
-    // topic.innerText = arr[count].topic;
 }
 
 function slide (){
