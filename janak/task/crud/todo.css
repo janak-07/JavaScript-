@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 1000px;
+    height: 450px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: cadetblue;
+}
+
+.div1 {
+    width: 100%;
+    height: 130px;
+    display: flex;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+textarea::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.div1>button {
+    width: 150px;
+    height: 50px;
+    margin: 40px 0;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.one {
+    width: 970px;
+    height: 300px;
+    border: 4px solid rgb(5, 3, 3);
+    margin: auto;
+
+}
+
+.chackbox {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    gap: 690px;
+    margin-top: 10px;
+}
+
+.chackbox1 {
+    width: 160px;
+    display: flex;
+    height: 60px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.chackbox1>input {
+    width: 30px;
+    height: 30px;
+}
+
+.deletall {
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.main2-3div {
+    width: 1000px;
+    height: 400px;
+}
+
+.div2 {
+    width: 96%;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.div2>input {
+    width: 30px;
+    height: 20px;
+}
+
+.div2>textarea {
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.div2>button {
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
